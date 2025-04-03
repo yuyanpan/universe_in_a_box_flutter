@@ -1,0 +1,24 @@
+name: universe_in_a_box
+description: 一款离线运行的探索类小游戏《盒子里的宇宙》
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/piece1.png
+    - assets/images/piece2.png
+    - assets/images/piece3.png
+    - assets/images/piece4.png
